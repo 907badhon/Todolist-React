@@ -8,7 +8,7 @@ import FilteredTodos from "./FilteredTodos/FilteredTodos";
 function TodoContainer() {
   const [todos, setTodos] = useState([
     { id: 1, text: "Learn React", completed: true },
-    { id: 2, text: "Build App" },
+    { id: 2, text: "Build App", completed: false},
   ]);
 
   const [filter, setFilter] = useState("All");
